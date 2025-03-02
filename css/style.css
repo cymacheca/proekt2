@@ -1,0 +1,35 @@
+section{
+max-width: 800px;
+margin: 0 auto;
+padding: 2em;
+
+display: flex;
+justify-content: space-between;
+}
+.item{
+    max-width: 250px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+span{
+    color: red;
+    text-decoration: line-through;
+}
+.price{
+    color: green;
+    font-weight: bold;
+}
+.btn-go-box{
+    display: block;
+    background-color: rgb(133, 33, 110);
+    color:white;
+    padding: 20px 0;
+    margin: 20px 0;
+}
